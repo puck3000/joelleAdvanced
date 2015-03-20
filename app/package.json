@@ -1,21 +1,21 @@
 {
-  "name": "gulpBPforBeiz",
+  "name": "gulpBPforJoelle",
   "version": "1.0.0",
-  "description": "My Gulp-Boilerplate for Beiz",
+  "description": "joelles Winterthur Site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/puck3000/beiz.git"
+    "url": "git://github.com/puck3000/joelle.git"
   },
   "author": "daniellerch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/puck3000/beiz/issues"
+    "url": "https://github.com/puck3000/joelle/issues"
   },
-  "homepage": "https://github.com/puck3000/beiz",
+  "homepage": "https://github.com/puck3000/joelle",
   "devDependencies": {
     "autoprefixer-stylus": "^0.5.0",
     "browser-sync": "^2.0.0-rc3",
