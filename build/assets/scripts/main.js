@@ -1,1 +1,1 @@
-$(function(){$(document).click(function(){$("body").toggleClass("back")})});
+$(function(){$("html").click(function(){$("body").toggleClass("back")})});

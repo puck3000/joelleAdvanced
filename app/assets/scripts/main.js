@@ -1,5 +1,5 @@
 	$(function() {  
-	    $(document).click(function(){
+	    $('html').click(function(){
 	    	$('body').toggleClass("back");
 	    })
 
