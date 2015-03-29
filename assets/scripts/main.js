@@ -1,0 +1,1 @@
+function doSomething(o){$("body").toggleClass("back"),o.stopPropagation()}jQuery.fn.extend({clickOrTouch:function(o){return this.each(function(){var t="ontouchstart"in document?"touchstart":"click";$(this).on(t,o)})}}),$("body").clickOrTouch(doSomething);
