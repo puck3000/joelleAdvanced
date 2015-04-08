@@ -1,1 +1,1 @@
-function doSomething(o){$("body").toggleClass("back"),o.stopPropagation()}jQuery.fn.extend({clickOrTouch:function(o){return this.each(function(){var t="ontouchstart"in document?"touchstart":"click";$(this).on(t,o)})}}),$("body").clickOrTouch(doSomething);
+$(function(){$("#slides").superslides({pagination:!1}),$("#navToggle").click(function(){$(".info").fadeToggle(),console.log("toggle!x")}),$("#winthiLink").click(function(){$("#winthiLink").fadeOut()})});
